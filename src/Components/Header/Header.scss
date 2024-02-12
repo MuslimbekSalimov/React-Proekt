@@ -1,0 +1,139 @@
+.header {
+    padding-top: 10px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+        gap: 53px;
+    }
+
+    .header__link {
+        font-family: "Manrope";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #150A29;
+
+        &:hover {
+            color: #FD695A;
+            padding: 10px 20px;
+            background-color: #150A29;
+            transition: all 0.5s ease-in;
+            border-radius: 8px;
+        }
+    }
+
+    .header__button {
+        width: 137px;
+        height: 50px;
+        border-radius: 50px;
+        background: #FD695A;
+        border: none;
+
+        // text 
+        font-family: "Mulish";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #FFF;
+        
+    }
+
+    .header__link__logo {
+        border: none;
+    }
+
+    // Modal
+    .modal__sign {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: yellow;
+        width: 608px;
+        height: 440px;
+        border-radius: 12px;
+        z-index: 10000;
+        display: none;
+    }
+
+    .sign__modal {
+        display: block;
+    }
+
+    .modal__exit {
+        border: none;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding: 8px 18px;
+    }
+
+    .modal__button {
+        margin-left: 200px;
+    }
+
+    .sign__modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // padding-top: 60px;
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 55px;
+
+            .login  {
+                width: 360px;
+                height: 40px;
+                background-color:aqua;
+            }
+
+            .pasword {
+                width: 360px;
+                height: 40px;
+                background-color:green;
+            }
+
+            .modal__button {
+                padding: 12px 30px;
+                border: none;
+                background-color: #FFF;
+                border-radius: 8px;
+                font-size: 16px;
+                color: #000;
+                font: bold;
+            }
+        }
+    }
+}
+
+
+// .modal-overlay {
+//     display: none;
+//     justify-content: center;
+//     align-items: center;
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     background-color: rgba(0, 0, 0, .5);
+//     opacity: 0;
+//     transition: opacity .2s ease;
+//   }
+  
+//   .modal-overlay.active {
+//     display: flex;
+//   }
+  
+//   .modal-overlay.visible {
+//     opacity: 1;
+//   }

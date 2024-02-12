@@ -1,0 +1,206 @@
+.hero{
+    padding-top: 128px;
+
+    .container {
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+        // gap: 30px;
+    }
+
+    .heading {
+        margin: 0;
+        padding: 0;
+        font-family: "Mulish";
+        font-size: 70px;
+        font-weight: 800;
+        line-height: 94px;
+        color: #3D3D3F;
+        width: 607px;
+
+        .heading__span {
+            text-align: center;
+            cursor: not-allowed;
+            margin-left: 20px;
+        }
+
+        .spanQ {
+            position: relative;
+            bottom: 77px;
+            right:380px;
+            // border-radius: 12px;
+            color: green;
+            font-size: 40px;
+            cursor:nw-resize;
+        }
+
+        .spanL {
+            position: relative;
+            color: green;
+            top: 47px;
+            right: 399px;
+            font-size: 40px;
+            cursor: ne-resize;
+        }
+
+        .spanF {
+            position: relative;
+            color: green;
+            bottom:80px;
+            left: 60px;
+            font-size: 40px;
+            cursor: ne-resize;
+
+        }
+
+        .spanH {
+            position: relative;
+            color: green;
+            top: 46px;
+            left: 42px;
+            font-size: 40px;
+            cursor:nw-resize;
+
+        }
+    }
+
+    .heading__span {
+        color:  #FD695A;
+        border: 5px solid green;
+        padding: 10px 20px;
+        text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    }
+
+    .text {
+      font-family: "Manrope";
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 34px;
+      color: #3D3D3F;
+      opacity: 0.8;
+      width: 464px;
+    }
+
+    .start__button {
+        width: 162px;
+        height: 59px;
+        border-radius: 50px;
+        background: #FD695A;
+        border: none;
+        cursor: pointer;
+
+        // text
+        font-family: "Mulish";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .button__div {
+        display: flex;
+        align-items: center;
+        gap: 38px;
+    }
+
+    .video__button {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        width: 183.07px;
+        height: 48px;
+        border: none;
+        background-color: #FFF;
+
+        // Text
+        font-family: "Mulish";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #FD695A;
+        cursor: pointer;
+    }
+
+    .hero__links {
+        position: absolute;
+        margin-left: 118px;
+        top: 244px;
+    }
+
+    .hero__prise {
+       position: absolute;
+       right: 200px;
+       margin-top: 30px;
+    }
+
+    .hero__k59 {
+        position: absolute;
+        bottom: 0px;
+        margin-left: -760px;
+    }
+
+    .hero__client {
+        position: absolute;
+        bottom: 25px;
+        margin-left: -160px;
+    }
+
+    .wlecome {
+        position: fixed;
+        background-color: #FD695A;
+        width: 708px;
+        height: 501px;
+        border-radius: 12px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+        z-index: 10000;
+
+        .welecome__heading {
+            text-align: center;
+            padding-top: 100px;
+            color: #FFF;
+        }
+    }
+
+    .iframe {
+        // width: 400px;
+        height: 350px;
+        padding-left: 150px;
+        border-radius: 12px;
+    }
+
+    .comewl {
+        display: block;
+    } 
+
+    .wlcome__text {
+        width: 400px;
+        text-align: center;
+        margin-left: 130px;
+    }
+
+    .watch__video {
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .watch {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 705px;
+        height: 500px;
+        background-color: #3D3D3F;
+        display: none;
+    }
+
+    .edd {
+        display: block;
+    }
+}

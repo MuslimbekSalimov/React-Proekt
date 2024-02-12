@@ -1,0 +1,17 @@
+.about {
+    padding-top: 109px;
+    text-align: center;
+
+    .about__heading {
+        font-family: "Mulish";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        color: #3D3D3F;
+    }
+    .pictur {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+}
